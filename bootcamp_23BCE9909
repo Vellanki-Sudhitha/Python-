@@ -1,0 +1,15 @@
+i=""
+while("exit" not in i):
+  i=input("Hello. How can I assist you? please enter exit to leave the conversation")
+  if("how are you" in i):
+    print("I do not have feelings")
+  elif("bored" in i):
+    print("You can use instagram, listen to music and doodle to entertain yourself")
+  elif("distract" in i):
+    print("Turn on DND to work or study more effeciently")
+  elif("exit" in i):
+    break
+  else:
+    print("I cannot comprehend that.")
+  
+  
